@@ -1,69 +1,87 @@
-# 📊 Kindle Reader Insights: Tableau Dashboard Evaluation
+# 🔄 Return Rate Analysis Dashboard
 
 ## Overview
-This repository presents a Tableau dashboard that evaluates the 2023 Amazon Kindle dataset with a focus on consumer behavior, pricing trends, and publishing performance. The analysis provides actionable insights for readers, publishers, and digital platforms aiming to align with real-world engagement and sales dynamics.
+This project presents a comprehensive return rate analysis to help identify where, when, and why product returns are increasing—and what can be done to mitigate them. Built as part of the TripleTen Business Intelligence Analyst program, the Tableau dashboard translates raw return data into actionable business insights to guide operational improvements and customer experience strategies.
 
-🔗 **[View the Tableau Dashboard](https://public.tableau.com/app/profile/brittany.williams2558/viz/Sprint5Project_17529414786940/Dashboard1)**
+🔗 **[View the Live Tableau Dashboard](https://public.tableau.com/app/profile/brittany.williams2558/viz/Sprint5Project_17529414786940/Dashboard1)**
 
 ---
 
 ## 🎯 Objectives
-- **Identify** top-performing authors, categories, and publishers.
-- **Evaluate** reader engagement using reviews and ratings.
-- **Inform** recommendation and pricing strategies using trend data.
+- **Highlight** return rate trends and their impact on customer satisfaction and profit.
+- **Diagnose** key drivers of product returns by region, category, and customer type.
+- **Recommend** operational and strategic interventions based on data insights.
 
 ---
 
-## 🔍 Key Findings
+## 📖 Tableau Story Points
 
-### 📚 Category Trends
-- Teen & Young Adult and History categories show rising momentum.
-- Genre shifts suggest evolving reader demand, useful for targeted content strategy.
+1. **The Problem – Returns Are Growing**  
+   *KPI summary showing rising return rates and business impact.*
 
-### ✍️ Bestselling Authors
-- A small group of authors dominate, driven by strong brand loyalty and genre specialization.
+2. **Where Returns Are Coming From**  
+   *Geographic analysis identifies regional return patterns.*
 
-### 🏢 Leading Publishers
-- Amazon leads in publishing volume, while traditional publishers maintain reader trust through higher average ratings.
+3. **What Products Are Driving Returns**  
+   *Bar chart highlights categories with the highest return rates.*
+
+4. **Who Is Returning Products**  
+   *Scatterplot reveals return behavior of repeat customers.*
+
+5. **When Are Returns Spiking**  
+   *Seasonal trend analysis by month and category.*
+
+6. **Why It Matters – Sales vs. Returns Correlation**  
+   *Comparison of sales volume and return rates across products.*
+
+7. **Strategic Response – What We’re Doing About It**  
+   *Data-backed actions: QC audits, fulfillment improvements, supplier checks.*
+
+8. **Conclusion & Next Steps**  
+   *Forward-looking view with KPIs and ongoing monitoring strategy.*
+
+---
+
+## 🔍 Key Insights
+- **Returns are rising**, particularly in Q4 and Q1, pointing to seasonal alignment issues.
+- **Technology and office supplies** have significantly higher return rates.
+- **Repeat customers** show consistent return behavior, signaling expectation gaps.
+- Some **low-volume products have high return rates**, suggesting issues in niche SKUs or vendor quality.
 
 ---
 
 ## 🧠 Assumptions
-- Popular genres reflect sustained interest.
-- High review volume and ratings correlate with reader loyalty.
-- Publisher dominance in genres indicates strategic focus.
+- Return rate is a valid proxy for dissatisfaction or product fit issues.
+- High returns in specific regions or categories indicate deeper operational causes.
+- Sales and returns can be meaningfully compared to identify risk-prone products.
 
 ---
 
-## 📊 Dashboard Features
-- **Author Bestseller Frequency**
-- **Total Reviews vs. Average Rating**
-- **Average Price by Author**
-- **Price vs. Rating (w/ Bestseller Highlight)**
-- **Genre and Publisher Breakdown**
-
----
-
-## 🛠 Tools Used
-- **Tableau Public** – Data visualization
-- **Google Sheets** – Data organization
-- **Python (optional)** – For any preprocessing
+## 📊 Tools Used
+- **Tableau Public** – Story point dashboard development
+- **Excel/Google Sheets** – Data wrangling and cleaning
 - **GitHub** – Project documentation and version control
 
 ---
 
-## 👥 Contributors
-- **Brittany Williams** – Analysis, Dashboard Design, and Insights
+## 📁 Repository Structure
+
 
 ---
 
-## 💡 Future Enhancements
-- Integrate time-series trends on book performance
-- Add dynamic filters by genre or publication date
-- Expand analysis to include Kindle Unlimited and pricing elasticity
+## 👤 Contributor
+- **Brittany Williams** – Dashboard Developer & Analyst
 
 ---
 
-## License
-This project is for educational and demonstration purposes under the TripleTen Business Intelligence Analyst program.
+## 🚀 Future Enhancements
+- Add return reason classification for deeper root cause analysis
+- Integrate predictive analytics for return rate forecasting
+- Link product reviews to return data for sentiment correlation
+
+---
+
+## 📄 License
+This project is for educational and demonstration purposes as part of the TripleTen Business Intelligence Analyst program.
+
 
